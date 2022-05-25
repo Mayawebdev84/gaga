@@ -1,0 +1,413 @@
+body {
+    margin: 0;
+    font-family: 'Press Start 2P', cursive; 
+    font-size: 0.9rem;
+    font-weight: 200;
+    line-height: 1.5;
+ 
+    color: #ffffff;
+    text-align: left;
+    background-color: rgb(0, 0, 0);
+}
+
+h1{
+
+
+
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+
+h2{
+
+    font-family: 'Press Start 2P', cursive; 
+
+
+
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+
+
+
+
+
+#parallax-image{
+    
+    background-image: url("../img/gaga.png");
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+
+}
+
+#parallax-image1{
+    
+    background-image: url("../img/gaga2.png");
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+
+}
+
+
+#parallax-image2{
+    
+    background-image: url("../img/gaga3.jpg");
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: yellow;
+    font-family: 'Monoton', cursive;
+ font-size: 20px;
+ 
+    
+    
+
+
+
+
+}
+
+
+
+
+
+#parallax-image3{
+    
+    background-image: url("../img/gaga3.jpg");
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+
+
+}
+
+
+
+
+.bg-white {
+    background-color: #000!important;
+}
+
+
+
+.text-dark {
+    color: #ffffff!important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #000000!important;
+}
+
+
+.ecris1{
+display: flex;
+padding-bottom: 700px;
+justify-content: center;
+font-size: 30px;
+
+
+
+}
+
+
+.ecris2{
+display: flex;
+padding-bottom:  100px;
+margin-left: 0px;
+font-size: 30px;
+
+}
+
+
+.type{
+display: flex;
+margin-right: 500px;
+
+
+
+
+
+
+}
+
+p.momi{
+
+    color: rgb(224, 85, 166);
+    font-size: 50px;
+    font-family: 'Nothing You Could Do', cursive;
+    font-style: bold;
+    font-weight: 100px;
+    font-weight: 1000;
+    
+  
+}
+
+
+p.momi2{
+
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive; 
+}
+
+.texte{
+	/* background: rgba(255, 255, 255, 0.452); transparence du fond */
+	padding: 60px;
+	margin: 240px;
+    max-width:700px;
+    padding-bottom: 50px;
+    margin-right: 250px;
+    font-family: 'Lora', serif;
+border: yellow;}
+
+
+.text2{
+	/* background: rgba(255, 255, 255, 0.452); transparence du fond */
+	padding: 60px;
+	margin: 240px;
+    max-width:700px;
+    padding-bottom: 50px;
+    margin-right: 250px;
+    font-family: 'Nothing You Could Do', cursive;
+color: rgb(231, 75, 184);}
+    
+
+    
+.texte p {
+	width: 500px;
+    text-align:justify;
+    padding-bottom: 60px;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;}
+    
+
+
+.h1 {    
+display: flex;
+justify-content: center;
+margin-left: 300px;
+
+
+
+
+
+}
+
+.bb{
+
+
+    background-image: url(../img/back.jfif);
+
+background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    
+}
+
+
+
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeInDown {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes fadeInDown {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    } 
+
+
+
+
+    .pulse {
+        -webkit-animation-name: pulse;
+        animation-name: pulse;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        }
+        @keyframes pulse {
+        0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+        }
+        100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        }
+        } 
+
+
+        .bg-success {
+            background-color: #ffffff!important;
+        }
+
+
+
+        .container2{
+
+display:flex;
+justify-content: center;
+
+        }
+
+
+        .btn {
+            display: inline-block;
+            font-weight: 400;
+            color: #ffffff;
+            text-align: center;
+            vertical-align: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-color:#007bff;
+            border: 1px solid transparent;
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            border-radius: .25rem;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            background-color: transparent;
+            font-family: 'Press Start 2P', cursive; 
+        }
+
+
+        .size1{
+
+
+            font-size: 12px;
+        }
+
+
+        .li.my2-2{font-size: 5px;}
+
+        a.btn-first{
+            display: flex;
+            justify-content: center;
+            background-color: #0BB9B6;
+            color: white;
+            
+            
+         
+           
+            
+        }
+
+
+        
+element.style {
+    font-weight: 600px;
+}
+
+
+
+a.text-dark:focus, a.text-dark:hover {
+    color: rgb(224, 85, 166)!important;
+}
+
+
+
+a.btn-first:hover {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(224, 85, 166);
+    color: white;
+}
